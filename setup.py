@@ -18,7 +18,7 @@ setup(
     ],
     author='Nathan Van Gheem',
     author_email='vangheem@gmail.com',
-    url='',
+    url='https://github.com/guillotinaweb/guillotina_statsd',
     packages=find_packages(exclude=['demo']),
     include_package_data=True,
     tests_require=[
