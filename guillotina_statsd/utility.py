@@ -1,22 +1,14 @@
 from aiostatsd.client import StatsdClient
 from guillotina import app_settings
-from guillotina import configure
+from guillotina.async_util import IAsyncUtility
 
 import asyncio
-
-
-try:
-    from guillotina.async_util import IAsyncUtility
-except ImportError:
-    from guillotina.async import IAsyncUtility
-
 
 
 class IStatsdUtility(IAsyncUtility):
     pass
 
 
-@configure.utility(provides=IStatsdUtility)
 class StatsdUtility:
 
     def __init__(self, settings=None, loop=None):

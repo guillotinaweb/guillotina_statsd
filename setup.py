@@ -9,16 +9,16 @@ except IOError:
 
 setup(
     name='guillotina_statsd',
-    version='1.0.7.dev0',
+    version='1.1.0.dev0',
     description='Integrate statsd into guillotina',
     long_description=README,
     install_requires=[
-        'guillotina>=2.1.5',
+        'guillotina>=4',
         'aiostatsd'
     ],
     author='Nathan Van Gheem',
     author_email='vangheem@gmail.com',
-    url='https://github.com/guillotinaweb/guillotina_statsd',
+    url='https://github.com/plone/guillotina_statsd',
     packages=find_packages(exclude=['demo']),
     include_package_data=True,
     tests_require=[
