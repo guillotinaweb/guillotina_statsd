@@ -1,4 +1,4 @@
-1.1.0 (unreleased)
+1.1.0 (2019-05-22)
 ------------------
 
 - Fix for guillotina > 4
