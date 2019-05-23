@@ -1,7 +1,7 @@
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- readme fix
 
 
 1.1.0 (2019-05-22)

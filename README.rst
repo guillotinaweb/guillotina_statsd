@@ -9,12 +9,12 @@ Configuration
 -------------
 
 
-Example docs:
+Example docs::
 
     {
-        "statsd": {
-	    "host": "localhost",
-	    "port": 8015
+      "statsd": {
+	      "host": "localhost",
+	      "port": 8015
 	    }
     }
 
