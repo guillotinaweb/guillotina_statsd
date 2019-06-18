@@ -9,7 +9,7 @@ except IOError:
 
 setup(
     name='guillotina_statsd',
-    version='1.1.2',
+    version='1.1.3.dev0',
     description='Integrate statsd into guillotina',
     long_description=README,
     install_requires=[
