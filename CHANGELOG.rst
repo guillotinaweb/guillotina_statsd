@@ -1,7 +1,7 @@
 1.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- restrict version
 
 
 1.1.1 (2019-05-22)

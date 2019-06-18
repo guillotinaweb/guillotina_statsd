@@ -13,7 +13,7 @@ setup(
     description='Integrate statsd into guillotina',
     long_description=README,
     install_requires=[
-        'guillotina>=4',
+        'guillotina>=4,<5',
         'aiostatsd'
     ],
     author='Nathan Van Gheem',
